@@ -1,0 +1,75 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-light .navbar-brand {
+    color: blue;
+}
+
+
+.bg-white {
+    background-color: #fff;
+}
+
+.m-maior {
+    margin-top: 100px;
+}
+
+
+.nav-item:hover {
+    padding-bottom: 12px;
+    padding-right: 12px;
+    border-right: solid 4px transparent;
+    border-bottom: solid 4px transparent;
+    transition: boder-rigth 0.3s, boder-bottom 0.3s;
+}
+
+.nav-item:hover {
+
+    border-left: solid 4px rgb(11, 33, 236);
+    border-top: solid 4px rgb(8, 98, 150);
+
+}
+.nav-item {
+    padding-bottom: 12px;
+    padding-right: 12px;
+    border-right: solid 4px transparent;
+    border-bottom: solid 4px transparent;
+    transition: boder-rigth 0.3s, boder-bottom 0.3s;
+}
+
+.nav-item {
+
+    border-left: solid 4px transparent;
+    border-top: solid 4px transparent;
+
+}
+
+@media only screen and (max-width:992px) {
+    .marca {
+        display: none;
+    }
+
+    .botoes {
+        max-width: auto;
+    }
+
+    .nav-bar {
+        width: 80%;
+    }
+
+    .central {
+        width: auto;
+    }
+
+    .medica {
+        margin-top: 5px;
+    }
+
+    .btn {
+        margin-top: 5px;
+    }
+
+    
+
+}
