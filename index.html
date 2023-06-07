@@ -29,24 +29,25 @@
       </button>
       <div class="botoes">
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
-          <ul class="navbar-nav mx-auto "> 
+          <ul class="navbar-nav mx-auto ">
             <li class="nav-item ">
-              <a class="nav-link me-5" href="#">Médicos</a>
+              <a class="nav-link me-5" href="#medico">Médicos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link me-5" href="#">Dentistas</a>
+              <a class="nav-link me-5" href="#medico">Dentistas</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link me-5" href="#">Laboratórios</a>
+              <a class="nav-link me-5" href="#lab">Laboratórios</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link me-5" href="#">Convênios Hospitalares</a>
+              <a class="nav-link me-5" href="#convenios">Convênios Hospitalares</a>
             </li>
           </ul>
           <button class="btn btn-primary small fw-bold me-5" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
             Entrar
           </button>
-          <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+          <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+            aria-labelledby="staticBackdropLabel" aria-hidden="true">
             <div class="modal-dialog">
               <div class="modal-content">
                 <div class="modal-header">
@@ -57,7 +58,8 @@
                   <div class="mb-3 row">
                     <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
                     <div class="col-sm-10">
-                      <input type="text" readonly class="form-control-plaintext" id="staticEmail" value="email@example.com">
+                      <input type="text" readonly class="form-control-plaintext" id="staticEmail"
+                        value="email@example.com">
                     </div>
                   </div>
                   <div class="mb-3 row">
@@ -89,8 +91,7 @@
             Sua saúde nossa responsábilidade!
           </p>
           <button class="btn btn-primary btn-lg ms-5" data-bs-toggle="modal" data-bs-target="#exampleModal">
-            <span class="small"> Veja os Planos &ensp;<i
-                class="bi bi-arrow-right"></i></span>
+            <span class="small"> Veja os Planos &ensp;<i class="bi bi-arrow-right"></i></span>
           </button>
           <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
             aria-hidden="true">
@@ -162,6 +163,103 @@
       </div>
     </div>
   </section>
+  <div id="medico"></div>
+  <h3 class="hospitalar">Melhores Médicos para o seu Atendimento</h3>
+  <section class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <img class="fs-5" src="imagens/medica1.jpg" alt="Julia">
+        <p class="text-secondary fs-6">Profissionais Qualificados!</p>
+      </div>
+      <div class="col-md-4">
+        <img class="fs-5" src="imagens/medica2.jpg" alt="Marcia">
+        <p class="text-secondary fs-6">Qualidade e Agilidade!</p>
+      </div>
+      <div class="col-md-4">
+        <img src="imagens/medica3.jpg" alt="Jurema">
+        <p class="text-secondary fs-6">Dedicação total a você.</p>
+      </div>
+    </div>
+  </section>
+
+  <div id="lab"></div>
+  <h3 class="hospitalar">Os dois melhores Labóratorios </h3>
+  <section class="container">
+    <div class="row">
+      <div class="col-md-6 ">
+        <img class="fs-5" src="imagens/Logo-Novara.webp" alt="novara">
+      </div>
+      <div class="col-md-6">
+        <img class="fs-5" src="imagens/antonello.jpg" alt="Antonella">
+      </div>
+    </div>
+  </section>
+  <div id="convenios"></div>
+  <div class="hospitalar mb-3">
+    <h3>Convênios</h3>
+  </div>
+  <section class="container mb-3">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="container" style="width: 400px;">
+          <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="imagens/Amil.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="imagens/greencard.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="imagens/unimed.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="container" style="width: 400px;">
+          <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="imagens/Amil.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="imagens/greencard.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="imagens/unimed.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+
+
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
