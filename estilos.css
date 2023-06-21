@@ -58,9 +58,15 @@ body {
     .marca {
         display: none;
     }
+    .row{
+        text-align: center;
+    }
+    .div{
+        display: flex;
+    }
 
     .botoes {
-        max-width: auto;
+        max-width: 100%;
     }
 
     .nav-bar {
@@ -73,11 +79,33 @@ body {
 
     .medica {
         margin-top: 5px;
+        width: 100%;
     }
 
     .btn {
         margin-top: 5px;
+        margin-left: 50px;
     }
     
+    .navbar-expand-sm{
+        flex-wrap:wrap;
+        max-width: 100%;
+    }
+
+    
+
+}
+
+@media only screen and (max-width:756px) {
+
+    .navbar-nav{
+        flex-direction:row !important;
+        padding-left: 50px;
+        
+    }
+    .entrar{
+        text-align: center;
+    }
+
 
 }
